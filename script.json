@@ -3,6 +3,7 @@
     "HI": "Hi\nI’m the personal bot of Ward De Muynck. I respond to keywords in capitals\nWould you like to know more about my WORK or EDUCATION",
     "YOW": "Are you sure? %[Button label here](http://anyurl.com)",
     "WORK": "Webmaster, webdesigner, interface designer ... I wear alot of hats. Would you like to know more about the TECHNICAL side or PROJECTMANAGEMENT",
+    "CALLBACK": "Ha, I thought so!\n![GIF](https://raw.githubusercontent.com/esthercrawford/smooch-bot-example/master/img/cameron-robot.gif)\nAre you perhaps thinking about building your own bot? %[I'd like to](postback:ID_LIKE_TO] %[Not yet](postback:NOT_YET]"
     "BUTTON": "knop %[Button label here](postback:http://munkbeer.com/bot/scream.php)",
     "DANK": "Met plezier, kan ik nog iets doen %[Tweet Esther](http://bit.ly/estherbot-tweet)",
     "TELL HER": "Let's tweet @ Esther so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Esther](http://bit.ly/estherbot-tweet)",
