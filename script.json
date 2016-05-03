@@ -7,7 +7,7 @@
     "CALLBACK": "Ha, I thought so!\n![GIF](https://raw.githubusercontent.com/esthercrawford/smooch-bot-example/master/img/cameron-robot.gif)\nAre you perhaps thinking about building your own bot? %[I'd like to](postback:ID_LIKE_TO] %[Not yet](postback:NOT_YET]",
     "DUDE": "Image!\n![GIF](https://raw.githubusercontent.com/warddem/EstherBot/master/img/letsgo.gif)\n cool dude",
     "DANK": "Met plezier, kan ik nog iets doen %[Tweet Esther](http://bit.ly/estherbot-tweet)",
-    "LINK": " on external page %[Call JS](http://bit.ly/estherbot-tweet)",
+    "LINK": "%[Call JS](http://munkbeer.com/bot/test.html?var=tst) on external page ",
     "TELL HER": "Let's tweet @ Esther so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Esther](http://bit.ly/estherbot-tweet)",
     "I LOVE YOU": "Awh, shucks! I love you too!",
     "CONNECT ME": "",
