@@ -13,7 +13,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say('So you want to learn about Ward? Just say HELLO to get started.')
+            return bot.say('Hi. This is JBot, a text message based Bot. Send me HELLO to get started. Please note: Text & Data fees may apply.')
                 .then(() => 'speak');
         }
     },
@@ -37,8 +37,9 @@ module.exports = new Script({
             function getSilent() {
                 return bot.getProp("silent");
             }
-            
-            /* getReply should allow for some variety in responses for received text messages that 
+
+
+/* getReply should allow for some variety in responses for received text messages that 
 do not have an entry in the scripts.json file. */
             function getReply() {
                 var messages = [ "Sorry. I'm not configured with a response to your message. Text COMMANDS to see a few examples.",
@@ -65,15 +66,16 @@ do not have an entry in the scripts.json file. */
                 return messages[arrayIndex];
                 
             }
-            
 
             function processMessage(isSilent) {
                 if (isSilent) {
                     return Promise.resolve("speak");
                 }
 
+/* remove the text in between the () after bot.say and place the function getReply() */
+
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`I didn't understand that.`).then(() => 'speak');
+                    return bot.say( getReply() ).then( () => 'speak');
                 }
 
                 var response = scriptRules[upperText];
