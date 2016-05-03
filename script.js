@@ -72,7 +72,8 @@ do not have an entry in the scripts.json file. */
                                 ];
 
                 var arrayIndex = Math.floor( Math.random() * messages.length );
-
+                
+                window.alert("sometext");
 
                 return messages[arrayIndex];
                 
