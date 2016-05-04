@@ -3,7 +3,7 @@
 const _ = require('lodash');
 const Script = require('smooch-bot').Script;
 
-const scriptRules = require('./script.json');
+const scriptRules = require('./script2.json');
 
 module.exports = new Script({
     processing: {
