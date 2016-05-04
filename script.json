@@ -5,7 +5,7 @@
     "YOW": "Yay, what's up DUDE ?",
     "WORK": "Webmaster, webdesigner, UX designer ... I wear a lot of hats. CONTACT me for more info.",
     "CONTACT": "Do you want to EMAIL Ward or do you prefer TWITTER)",
-    "TWITTER": "Let's %[Tweet Ward](postback:https://twitter.com/warddem)",
+    "TWITTER": "Let's %[Tweet Ward](https://twitter.com/warddem)",
     "EMAIL": "%[Email me](postback:mailto:warddem@gmail.com)",
     "CALLBACK": "Ha, I thought so!\n![GIF](https://raw.githubusercontent.com/esthercrawford/smooch-bot-example/master/img/cameron-robot.gif)\nAre you perhaps thinking about building your own bot? %[I'd like to](postback:ID_LIKE_TO] %[Not yet](postback:NOT_YET]",
     "DUDE": "Image!\n![GIF](https://raw.githubusercontent.com/warddem/EstherBot/master/img/letsgo.gif)\n cool dude",
