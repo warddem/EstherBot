@@ -1,5 +1,5 @@
 {
-    "HELLO": "Hey, nice to meet you. Can I tell you something about Ward's %[WORK](postback:work)?",
+    "HELLO": "Hey, nice to meet you. Can I tell you something about Wards %[work](postback:work)",
     "HELLO2": "Hey, I'm so glad you set Bot up! Do you want to tell Esther that you're talking to her bot? %[Tell her](postback:twitter)",
     "HI": "Hi, I’m the personal bot of Ward De Muynck. I respond to keywords in capitals\nWould you like to know more about my WORK ?",
     "YOW": "Yay, what's up DUDE ?",
