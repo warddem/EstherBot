@@ -13,7 +13,7 @@
     "LINK2": "%[section2](http://munkbeer.com/bot/test.html?goto=2)on external page",
     "LINK3": "%[section3](http://munkbeer.com/bot/test.html?goto=3)",
     "LINK": "%[section2](http://munkbeer.com/bot/test.html?goto=2) %[section3](http://munkbeer.com/bot/test.html?goto=3)",
-    "JS": "%[section2](http://munkbeer.com/bot/index.html?alertme)",
+    "JS": "%[section2](javascript:alertme())",
     "TELL HER": "Let's tweet @ Esther so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Esther](http://bit.ly/estherbot-tweet)",
     "I LOVE YOU": "Awh, shucks! I love you too!",
     "CONNECT ME": "",
